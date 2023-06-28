@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.processamento {
+    width: 500px;
+    height: 500px;
+    background-color: #AAB7B8 ;
+    animation: animacao 5s infinite;
+}
+@keyframes animacao {
+0%{
+    background-color: #CB4335 ; width: 250px;
+}
+50%{
+    background-color: #F1C40F ; width: 685px;
+}
+100%{
+    background-color: #239B56 ; width:1370px;
+}
+}
